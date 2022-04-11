@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    margin-left: 30px;
+    align-items: center;
+}
+header .spider{
+    margin-top: 10px;
+    margin-left: 500px;
+    flex-wrap: wrap;
+}
+header .spider a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 40px;
+}
+
+h1{
+    color: #fff;
+}
+.lettre {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+button {
+    margin-top: 40px;
+}
+p {
+    color: #fff;
+    font-family: sans-serif;
+    position: absolute;
+}
+h2{
+    color: #fff;
+    margin-top: 459px;
+}
+.histoire{
+    height: auto;
+    background-color: #b11313;
+    padding: 15px;
+    min-height: 700px;
+}
+.histoire .grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tobey{
+    width: 400px;
+    min-height: 400px;
+    height: auto;300px;
+}
+.tobey p {
+    text-align: justify;
+    inline-size: 200px;
+}

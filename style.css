@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color:#B11313;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+nav img {
+    margin-left: 30px;
+    align-items: center;
+}
+nav .menu{
+    margin-top: 10px;
+    margin-left: 500px;
+    flex-wrap: wrap;
+}
+nav .menu a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 40px;
+}
+
+header {
+    background: #f1c530;
+    height: 560px;
+}
+header .premier{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px;
+    color: #fff;
+}
+
+.petite {
+    background:#B11313 ;
+    display: flex;
+    padding: 150px;
+    color: #fff;
+}
+.deux p{
+    margin-top: 0px 20px;
+}
+.deux img{
+    margin-top: 40px;
+}
+.trois {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 100px;
+}
+.trois input{
+    background-color: #B11313;
+    color: #fff;
+    border: 1px solid;border-radius: 30px;
+    size: 70px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 60px;
+}
+input::placeholder{
+    color: #fff;
+}
+#mp {
+    padding: 4px 200px 120px 20px;
+}
+button {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    border:     1px solid #fff;
+    background-color: #B11313;
+    color: #fff;
+}
+.section1 {
+    background: #114c92;
+    padding: 150px;
+    color: #fff;
+}
+.sayna{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: left;
+    grid-area: right;
+}
+button .session {
+    background-color: #114c92;
+    color: #fff;
+}
+footer {
+    height: auto;
+    width: 900;
+    min-height: 300px;
+    background-color: black;
+    color: #fff;
+}
+footer .plus {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+
+footer .plus a {
+    color: #fff;
+    text-decoration: none;
+}
+.fin {}
+footer .fin img {
+    background: #B11313;
+    border-radius: 20px;
+}
+@media screen (max: width 680px;){
+    nav .menu{
+        margin-left: 0px;
+    }
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.ramil {
+    background-image: url(./Illustration/img35.png);
+    height: 120vh;
+}
+.son {
+    padding: 550px;
+}
+
+
+
